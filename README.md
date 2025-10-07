@@ -15,7 +15,7 @@ CloudBoard is a minimal, real‑time collaborative notepad. Share a note ID with
 
 ---
 
-## Quick start:
+## Setup:
 
 ### 1) Start MongoDB
 ```bash
@@ -37,6 +37,6 @@ cd ../client
 npm install
 npm run dev
 ```
-Client runs on `http://localhost:5173` (Vite default).
+Client runs on `http://localhost:5173`.
 
 ---
