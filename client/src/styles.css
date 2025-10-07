@@ -1,0 +1,13 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#0b1020;color:#f2f4f8}
+.app{max-width:1000px;margin:0 auto;padding:16px}
+.header{display:flex;flex-direction:column;gap:8px;margin-bottom:8px}
+.header h1{margin:0 0 8px;font-weight:800;letter-spacing:.3px}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.row input{padding:8px 10px;border-radius:6px;border:1px solid #2b3350;background:#0e1630;color:#e8ecf6;min-width:220px}
+.row button{padding:8px 12px;border-radius:6px;border:1px solid #37446b;background:#1a2445;color:#e8ecf6;cursor:pointer}
+.row button:hover{background:#22305c}
+.meta{display:flex;gap:16px;font-size:12px;opacity:.85}
+.typing{color:#9ec9ff}
+.editor{width:100%;min-height:65vh;resize:vertical;padding:12px 14px;border-radius:8px;border:1px solid #2b3350;background:#0e1630;color:#e8ecf6;font-family:ui-monospace,Menlo,Monaco,Consolas,monospace;line-height:1.5}
+.footer{margin-top:10px;opacity:.7;font-size:12px}
